@@ -62,3 +62,24 @@ function randomRotation() {
 	return numbers;
 }
 randomRotation();
+
+jQuery(document).ready(function() {
+	// helper
+	function helper() {
+		$("html").click(function() {
+			console.log("helper log");
+			$(".helper").addClass("fade");
+		});
+
+		$("html").keydown(function(e) {
+			var keys = [87, 65, 83, 68, 38, 37, 40, 39];
+			for (var i = 0; i < keys.length; i++) {
+				if (e.keyCode == keys[i]) {
+					console.log("helper log");
+					$(".helper").addClass("fade");
+				}
+			}
+		});
+	}
+	helper();
+}); // jQuery
