@@ -4,12 +4,27 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//aframe.io">
 	<title>Misha Skvortsov</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </head>
 
 <body>
+
+	<div id="modal" class="modal">
+		<section class="modal-content">
+			<header class="header">
+				<img src="./assets/img/logo/logo.png" alt="Misha Skvortsov" class="logo">
+			</header>
+			<main id="items"></main>
+		</section>
+	</div><!-- #modal -->
+
+	<div class="starbursts">
+		<div><span id="btn" class="starburst"><span><span><span><img src="./assets/img/icons/eye.svg"></span></span></span></span></div>
+	</div><!-- .starbursts -->
 
 	<div class="helper">
 		<span>Use WASD (or arrows) & cursor (or phone) or HMD</span>
