@@ -1,0 +1,33 @@
+
+/*----------------------------------------------------------------
+# helper
+----------------------------------------------------------------*/
+.helper {
+	position: absolute;
+	left: 0;
+	bottom: 2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+	-webkit-transition: 1s ease;
+	   -moz-transition: 1s ease;
+			transition: 1s ease;
+}
+
+.helper.fade {
+	bottom: -4em;
+}
+
+.helper span {
+	padding: .25em .5em;
+	background-color: #ed3160;
+	color: #fff;
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+	.helper span {
+		font-size: 8px;
+	}
+}
