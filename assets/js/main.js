@@ -64,6 +64,28 @@ function randomRotation() {
 randomRotation();
 
 jQuery(document).ready(function() {
+	// modal
+	$("#btn").click(function() {
+		$("#modal").toggleClass("active");
+		getItems();
+	});
+
+	window.onclick = function(e) {
+		var modal = document.getElementById("modal");
+		if (e.target == modal) {
+			$("#modal").removeClass("active");
+		}
+	}
+
+	// get items
+	function getItems() {
+		var items = "";
+		for (var i = 1; i < planes; i++) {
+			items += '<article><img src="./assets/img/' + i + '.jpg"></article>';
+		}
+		document.getElementById("items").innerHTML = items;
+	}
+
 	// helper
 	function helper() {
 		$("html").click(function() {
