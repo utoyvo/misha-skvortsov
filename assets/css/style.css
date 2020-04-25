@@ -52,8 +52,10 @@ li {
 # footer
 ----------------------------------------------------------------*/
 .footer {
-	font-size: 32px;
+	color: #fff;
+	font-size: 24px;
 	text-align: center;
+	text-shadow: 2px 2px 0 #000;
 }
 
 .footer a {
