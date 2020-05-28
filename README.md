@@ -1,22 +1,50 @@
 # Misha Skvortsov
 
-I discovered for myself a great web framework for virtual reality - A-FRAME. Where I took the first steps in mastering the virtual space. It's a web site for designer from Odessa, who create awesome glitch pixel art.
+Where I took the first steps in mastering the virtual space. It's a web site for designer from Odessa, who create awesome glitch pixel art.
 
-![misha skvortsov](https://raw.githubusercontent.com/utoyvo/misha-skvortsov/master/assets/img/screenshots/screenshot-1280x800.png)
+![Misha Skvortsov](screenshot.png)
+
+
+## STRUCTURE
+```
+├── assets
+│   ├── css
+|   |   └── style.css
+│   ├── img
+|   |   ├── covers
+|   |   |   ├── cover-1200x675.jpg
+|   |   |   └── cover-1280x800.jpg
+|   |   ├── icons
+|   |   |   ├── icon-16x16.png
+|   |   |   ├── icon-32x32.png
+|   |   |   ├── icon-60x60.png
+|   |   |   ├── icon-76x76.png
+|   |   |   ├── icon-96x96.png
+|   |   |   ├── icon-120x120.png
+|   |   |   ├── icon-144x144.png
+|   |   |   ├── icon-152x152.png
+|   |   |   ├── icon-180x180.png
+|   |   |   └── icon-192x192.png
+|   |   └── logo
+|   |       └── logo-192x192.png
+│   ├── js
+|   |   └── app.js
+│   └── libs
+|       └── jquery-3.5.1.min.js
+├── favicon.png
+├── index.html
+├── LICENSE
+├── README.md
+└── screenshot.png
+```
 
 ## Built With
+## BUILT WITH
+- [A-Frame](https://aframe.io/)
+- [jQuery 3.5.1](https://github.com/jquery/jquery/releases/tag/3.5.1)
 
-* [A-Frame](https://aframe.io/) - a web framework for building virtual reality experiences.
-* [jQuery](https://jquery.com/) - is a fast, small, and feature-rich JavaScript library.
+## CONTRIBUTOR
+Oleksandr Klochko / [@utoyvo](https://github.com/utoyvo).
 
-## Version
-
-[Current version](https://github.com/utoyvo/misha-skvortsov/releases/).
-
-## Author
-
-**Utoyvo** - [GitHub](https://github.com/utoyvo).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## LICENSE
+Code released under the [MIT](LICENSE).
