@@ -2,14 +2,6 @@
 var planes     = 11,
 	z_position = 99;
 
-// Camera position
-var camera_position;
-AFRAME.registerComponent('listiner', {
-	tick: function () {
-		camera_position = this.el.getAttribute('position');
-	}
-});
-
 // Cursor action listener
 AFRAME.registerComponent('cursor-listener', {
 	init: function () {

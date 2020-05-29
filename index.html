@@ -81,7 +81,7 @@ utoyvo(at)protonmail(dot)com   \______/
 </head>
 
 <body>
-<a-scene vr-mode-ui="enabled: false"
+<a-scene vr-mode-ui="enabled: true"
 		 avatar-replayer="spectatorMode: true"
 		 avatar-recorder>
 	<a-assets>
@@ -89,14 +89,15 @@ utoyvo(at)protonmail(dot)com   \______/
 	</a-assets>
 	<a-sky src="#sky"></a-sky>
 
-	<a-image src="public/assets/img/branding/brand.png"
+	<a-image brand-listener src="public/assets/img/branding/brand.png"
 			 position="3 3 -5"
 			 rotation="0 0 0"
+			 material="color: #0f0; shader: flat"
 			 scale="2 2 2"></a-image>
 
 	<a-entity camera listiner
 			  look-controls
-			  wasd-controls="enabled:true; fly:false; acceleration:256; easing:8">
+			  wasd-controls="enabled:false; fly:false; acceleration:256; easing:8">
 		<a-entity cursor="fuse: true"
 				  animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 200; from: 1 1 1; to: 1.3 1.3 1.3"
 				  animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 200; to: 1 1 1"
@@ -105,11 +106,6 @@ utoyvo(at)protonmail(dot)com   \______/
 				  material="color: #ff0; shader: flat"
 				  downEvents="mousedown">
 		</a-entity>
-
-		<a-entity geometry="primitive: plane; width: 1; height: auto"
-			material="color: #ed3160"
-			position="0 -0.6 -0.8"
-			text="value: Use WASD (or arrows) & cursor (or phone) or HMD"></a-entity>
 	</a-entity>
 </a-scene><!-- a-scene -->
 
