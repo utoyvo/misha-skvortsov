@@ -36,7 +36,7 @@ Where I took the first steps in mastering the virtual space. It's a web site for
 ├── index.html
 ├── LICENSE
 ├── README.md
-└── screenshot.png
+└── screenshot.jpg
 ```
 
 ## BUILT WITH
