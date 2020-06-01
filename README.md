@@ -2,7 +2,7 @@
 
 Where I took the first steps in mastering the virtual space. It's a web site for designer from Odessa, who create awesome glitch pixel art.
 
-![Misha Skvortsov](screenshot.png)
+![Misha Skvortsov](screenshot.jpg)
 
 ## STRUCTURE
 ```
